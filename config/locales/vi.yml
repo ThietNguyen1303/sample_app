@@ -25,4 +25,4 @@ vi:
       </p>'
   layouts:
     application:
-      page_title: " Sản phẩm mẫu của Ruby on Rails"
+      base_title: "Sản phẩm mẫu của Ruby on Rails"
