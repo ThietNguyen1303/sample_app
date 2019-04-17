@@ -2,6 +2,7 @@ en:
   hello: "Hello world"
   static_pages:
     home:
+      contain: "The form contains"
       title: "Home"
       content_html: '<p>This is the home page for the
      <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
@@ -55,4 +56,4 @@ en:
       title: "User"
       content_html: '<h1>Sign up</h1>
           <p>This will be a sign up page for new users.</p>'
-  sample_spp: "Ruby on Rails Tutorial Sample App"
+  sample_app: "Ruby on Rails Tutorial Sample App"
