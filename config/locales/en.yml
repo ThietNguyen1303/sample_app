@@ -40,8 +40,12 @@ en:
       page_title: " Ruby on Rails Sample App"
     _header:
       home: "Home"
-      login: "Login"
+      login_h: "Login"
       help: "Help"
+      users: "Users"
+      logout: "Logout"
+      profile: "Profile"
+      setting: "Setting"
     _footer:
       about: "About"
       contact: "Contact"
