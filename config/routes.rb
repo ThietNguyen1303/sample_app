@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
+<<<<<<< a4e205a96aa95a6f4620ac5f2fc9dbb3fff7b05f
 <<<<<<< c27577868aee6328204ef775ae6889d26dc87faa
   get 'users/new'
   scope"(:locale)", locale:/en|vi/ do
+=======
+  scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
+>>>>>>> Chapter 8 by Thiet Nguyen
 =======
   scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
 >>>>>>> Chapter 8 by Thiet Nguyen
