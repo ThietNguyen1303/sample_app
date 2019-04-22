@@ -19,6 +19,9 @@ AllCops:
     - 'spec/**/*'
     - 'script/rails'
     - 'config/**/*'
+    - 'Rakefile'
+    - 'config.ru'
+    - 'config/*'
 
 # Indent private/protected/public as deep as method definitions
 Layout/AccessModifierIndentation:
@@ -280,7 +283,6 @@ Metrics/LineLength:
   AllowURI: true
   Exclude:
     - config/routes.rb
-
 
 Style/Next:
   # With `always` all conditions at the end of an iteration needs to be

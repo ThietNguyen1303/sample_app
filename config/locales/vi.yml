@@ -1,6 +1,7 @@
 vi:
   static_pages:
     home:
+      contain: "The form contains"
       title: "Trang chủ"
       content_html: '</p>Đây là trang chủ của
         <a href="https://www.railstutorial.org/">Hướng dẫn về Ruby on Rails</a>.
