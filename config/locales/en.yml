@@ -64,5 +64,6 @@ en:
     new_user: "New user?"
     signup: "Sign up now!"
     error: "Invalid email/password combination"
-    success: "Login Successful"
+    success: "Login Successful"\
+    remember_me_html: "<span>Lưu lại trên máy tính này</span>"
 remember_me_html: "<span>Remember me on this computer</span>"
