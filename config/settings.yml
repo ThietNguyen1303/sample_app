@@ -3,3 +3,4 @@ email_max_length: 255
 password_min_length: 8
 garavatar:
 size: 30
+checkbox: "1"
