@@ -1,5 +1,7 @@
-name_max_length: 50
-email_max_length: 255
-password_min_length: 8
-garavatar:
-size: 30
+user_valid:
+  max_length_name: 50
+  max_length_email: 255
+  min_length_password: 6
+user_helper:
+  size_gravater: 80
+checkbox: "1"
