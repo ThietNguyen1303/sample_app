@@ -5,8 +5,8 @@ en:
       contain: "The form contains"
       title: "Home"
       content_html: '<p>This is the home page for the
-     <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-     sample application.</p>'
+      <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+      sample application.</p>'
       signup: "Sign Up Now"
     help:
       title: "Help"
@@ -17,7 +17,7 @@ en:
      To get help on this sample app, see the
      <a href="https://www.railstutorial.org/book"><em>Ruby on Rails
      Tutorial</em> book</a>.
-   </p>'
+     </p>'
     about:
       title: "About"
       content_html: '<p>
@@ -28,7 +28,7 @@ en:
      to teach web development with
      <a href="http://rubyonrails.org/">Ruby on Rails</a>.
      This is the sample application for the tutorial.
-   </p>'
+     </p>'
     contact:
       title: "Contact"
       content_html: '<p>
@@ -40,8 +40,12 @@ en:
       page_title: " Ruby on Rails Sample App"
     _header:
       home: "Home"
-      login: "Login"
+      login_h: "Login"
       help: "Help"
+      users: "Users"
+      logout: "Logout"
+      profile: "Profile"
+      setting: "Setting"
     _footer:
       about: "About"
       contact: "Contact"
@@ -56,4 +60,5 @@ en:
       title: "User"
       content_html: '<h1>Sign up</h1>
           <p>This will be a sign up page for new users.</p>'
+      submit_button: "Log in"
   sample_app: "Ruby on Rails Tutorial Sample App"
