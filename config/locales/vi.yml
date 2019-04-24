@@ -76,4 +76,40 @@ vi:
       new: "Chưa có tài khoản?"
   controller:
     sessions:
-wrongmail_password: "Không tồn tài khoản hoặc mặt khẩu không đúng"
+  wrongmail_password: "Không tồn tài khoản hoặc mặt khẩu không đúng"
+  users:
+    new:
+      title: "Đăng Ký"
+      content: "Đây là trang đăng ký cho người sử dụng mới"
+      create: "Tạo tài khoản"
+      success_ac: "Chào mừng bạn đến với Sample App!"
+      fail_ac: "Tạo tài khoản không thành công"
+    show:
+      error: "Không tìm thấy người dùng"
+    edit:
+      title: "Thay đổi thông tin người dùng"
+      button_text: "Lưu lại thay đổi"
+      name_page: "Cập nhật hồ sơ của bạn"
+      change: "Thay đổi"
+    update:
+      success: "Đã cập nhật hồ sơ"
+    logged_in_user:
+      unsuccess: "Please login"
+    index:
+      title: "Tất cả người dùng"
+      sure: "Bạn có chắc chắn không?"
+    destroy:
+      success: "Người dùng đã được xóa"
+      unsuccess: "Xóa người dùng không thành công"
+      delete: "Xóa"
+  layouts:
+    application:
+      page_title: " Sản phẩm mẫu của Ruby On Rails"
+      name: "App Mẫu"
+  sessions:
+    login: "Đăng nhập"
+    new_user: "Người sử dụng mới?"
+    signup: "Đăng nhập ngay!"
+    error: "Email/password không so khớp"
+    success: "Đăng nhập thành công"
+  remember_me_html: "<span>Lưu lại trên máy tính này</span>"
