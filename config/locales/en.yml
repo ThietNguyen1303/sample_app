@@ -62,3 +62,4 @@ en:
           <p>This will be a sign up page for new users.</p>'
       submit_button: "Log in"
   sample_app: "Ruby on Rails Tutorial Sample App"
+  remember_me: "Remember me on this computer"
