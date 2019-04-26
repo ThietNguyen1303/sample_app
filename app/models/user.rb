@@ -1,6 +1,7 @@
 class User < ApplicationRecord
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   attr_reader :remember_token
+  has_many :microposts, dependent: :destroy
 
   validates :name, presence: true,
     length: {maximum: Settings.name_max_length}
@@ -40,6 +41,10 @@ class User < ApplicationRecord
 
   def forget
     update_attribute :remember_digest, nil
+  end
+
+  def feed
+    microposts.ordered
   end
 
   private
