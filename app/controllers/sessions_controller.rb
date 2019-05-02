@@ -16,9 +16,9 @@ class SessionsController < ApplicationController
     user = User.find_by email: params[:session][:email].downcase
 
     if user&.authenticate(params[:session][:password])
-     login_with_remember user
-     redirect_back_or user
-     flash.now[:success] = t("sessions.success")
+      login_with_remember user
+      redirect_back_or user
+      flash.now[:success] = t("sessions.success")
     else
       render :new
       flash.now[:danger] = t("sessions.error")
@@ -29,6 +29,8 @@ class SessionsController < ApplicationController
     log_out if logged_in?
     redirect_to root_url
   end
+
+  private
 
   def login_with_remember user
     log_in user
